@@ -6,7 +6,7 @@ class BMI { // create class BMI
 	}
 
 	calculateBMI() { // add method
-		return this.weight / (this.height ** 2);
+		return this.weight / (this.height ** 2); // ** == Math.POW()
 	}
 }
 
